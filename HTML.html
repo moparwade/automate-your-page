@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CodePen - A Pen by  Wade Rottler</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="title">
+    Intro to Programming
+    <div class="title-img">
+       <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQM5UjmCn7XUsu43joO1ye2EGQIX1ibX1sQfc_APw5gPxt3rApO7A" alt="scenery">
+    </div>
+  </div>
+  <div class="links">
+     <ul>
+       <li><a href="#lesson-1">Programming Concepts</a></li>
+       <li><a href="#lesson-2">HTML with Structure</a></li>
+       <li><a href="#lesson-3">Styling with CSS</a></li>
+       <li><a href="#lesson-4">Python Basics</a></li>
+       <li><a href="#lesson-5">Python Functions</a></li>
+       <li><a href="#lesson-6">Using Python</a></li>       
+     </ul>
+  </div>
+  <h1 id="lesson-1">Programming Concepts</h1>
+    <div class="content">
+      <h2>What is a Webpage</h2>
+        <div class="description">
+           A web page is a text document written in a language called HTML (<em>HyperText Markup Language</em>). Web browsers read these documents, and then interpret and display them.
+        </div>  
+      <h2>How Coding Works</h2>
+        <div class="description">
+           Coding happens when programmers write text in a language that a computer can understand. The computer can then follow the instructions the programmer wrote. For example, the computer might do this by making text...<br>
+           <span>like this</span>:<br>
+          I'm &lt;b>learning&lt;b> to code!<br>
+           <span>look like this</span>:<br>  
+          I'm <b>learning</b> to code!
+        </div>  
+      <h2>Programmers Can't Remember Everything</h2>
+        <div class="description">
+          There are too many details to keep everything in your head. And that's okay. If you forget how to make text italic in HTML, you can always just look it up.
+        </div>  
+      <h2>Basic HTML Vocabulary</h2>
+        <div class="description">
+        <ul><li><em>Tag</em>: An HTML tag is always contained within angled brackets. Most tags have an opening tag (&lt;p> for example) and a closing tag, (&lt;/p>). Some tags (called "void" tags) do not require a closing tag (like the &lt;br> tag).<br>
+            <li><em>Element</em>: An HTML element refers to everything within a set of opening and closing tags.<br>
+            <li><em>Attribute</em>: This is a property of an HTML element. For example, to set the href attribute of an anchor tag to the Udacity URL, you would write &lt;a href="www.udacity.com">
+        </ul>
+      </div>
+    </div>    
+  <h1 id="lesson-2">HTML with Structure</h1>
+  <div class="content">
+     <h2>HTML controls the "structure" of a website</h2>
+        <div class="description">
+       HTML elements are either inline or block.<br> Block elements form an "invisible box" around the content inside of them.
+        </div>
+      <h2>CSS - Cascading Style Sheets</h2>
+        <div class="description">
+       CSS controls the "style" of a page (how it looks).<br> CSS is a style sheet language used for describing the look and formatting of a document written in a markup language.
+        </div>
+      <h2>DOM - Document Object Model</h2>
+        <div class="description">
+       A cross-platform and language-independent convention for representing and interacting with objects in HTML (and other markup languages).<br> The nodes of every document are organized in a tree structure, called the DOM tree.
+        </div>
+     </div>    
+  <h1 id="lesson-3">Styling with CSS</h1>
+     <div class="content">
+        <h2>CSS properties</h2>
+            <div class="description">
+            CSS is designed primarily to enable the separation of document content from document presentation, including elements such as the layout, colors, and fonts.<br> This separation of formatting and content makes it possible to present the same markup page in different styles for different rendering methods.
+            </div>
+          <h2>Inheritance</h2>
+            <div class="description">
+            Inheritance is the mechanism by which properties are applied not only to a specified element, but also to its descendants.<br> Inheritance prevents certain properties from being declared over and over again in a style sheet, allowing the software developers to write less CSS.<br> It enhances faster-loading of web pages by users and enables the clients to save money on bandwidth and development costs.
+          </div>  
+          <h2>Avoid Repetition</h2>
+            <div class="description">
+            Avoiding repetition is important to avoid errors. If you are writing the same code over and over it is very easy to make errors.<br> If then you want to change the code, every line of repetition must be changed to avoid problems.<br> Avoiding repetition is also important to maintain consistency when you are adding style elements.
+            </div>
+        </div>
+  <h1 id="lesson-4">Python Basics</h1>
+    <div class="content">
+        <h2>What is a Variable</h2>
+        <div class="description">
+       A variable is something that holds a value that may change.<br> In simplest terms, a variable is just a box that you can put stuff in. You can use variables to store all kinds of stuff.<br>
+          What does it mean to <b>assign</b> a value to a variable?<br>
+          example,<br>
+          changing = 3<br>
+          print changing<br>
+          3
+        </div>
+      <h2>String</h2>
+        <div class="description">
+       A string is sequence of characters in quotes.<br>
+       'I am a string!' and "I am a string!"  single or double quotes are accepted as long as they begin and end with the same.<br>
+       In Python, 2 is a number while "2" is a string.<br>
+       The code 2 + 2 would give 4<br>
+       The code "2" + "2" would give "22"
+        </div>
+      <h2>= Math versus Programming</h2>
+        <div class="description">
+       What's the difference between this: 2 + 3 = 5 and this: my_variable = 5?<br>
+       = means assignment in programming, think of it as an arrow.
+        </div>
+      <h2>Index</h2>
+        <div class="description">
+       An index, refers to a position within an ordered list. Python strings can be thought of as lists of characters; each character is given an index from zero (at the beginning) to the length minus one (at the end).<br>
+          For the string "Python", the indexes break down like this:<br>
+          P y t&nbsp; h o&nbsp; n<br>
+          0 1 2 3 4 5<br>
+          In addition, Python supports negative indexes, in which case it counts from the end. So the last character can be indexed with -1, the second to last with -2, etc.:<br>
+         P&nbsp;&nbsp;&nbsp;y&nbsp;&nbsp;&nbsp;t&nbsp;&nbsp;&nbsp;h&nbsp;&nbsp;&nbsp;o&nbsp;&nbsp;&nbsp;n<br>
+          -6 -5 -4 -3 -2 -1
+        </div>
+     </div>    
+  <h1 id="lesson-5">Python Functions</h1>
+   <div class="content">
+    <h2>What is a Function</h2>
+        <div class="description">
+           A function is a block of organized, reusable code that is used to perform a single, related action.<br>
+          Here are simple rules to define a function in Python.
+          Function blocks begin with the keyword def followed by the function name and parentheses ( ( ) ).
+            Any input parameters or arguments should be placed within these parentheses. You can also define parameters inside these parentheses.
+            The first statement of a function can be an optional statement - the documentation string of the function or docstring.
+            The code block within every function starts with a colon (:) and is indented.
+            The statement return [expression] exits a function, optionally passing back an expression to the caller. A return statement with no arguments is the same as return None.
+        </div>
+     <h2>Example of making and using a Function</h2>
+      <div class="description">
+        <em>Making a Function</em>
+              <p>
+          <div class="code-block">def square(x):<br>
+            <span class="indent">answer = x * x</span><br>
+            <span class="indent">return answer</span>
+          </div>
+           <em>Using a Function</em>
+              <p>
+          <div class="code-block">print square(5)<br>
+            >>>25
+         </div>
+        </div>
+        <h2>Functions avoid Repition</h2>
+        <div class="description">        
+          Functions are tools that programmers can create and reuse forever! Once you've defined a function once, you never have to define it again.
+      </div>
+  </div>
+ <h1 id="lesson-6">Using Python</h1>
+    <div class="content">
+        <h2>If</h2>
+        <div class="description">
+          To write an "If" statement: if &lt; test expression >: ...some block of code...<br>
+          Ex. def absolute(x):<br>
+          <span class="indent">if x&lt;0:</span><br>
+          <span class="indent2">x=-x</span><br>
+          <span class="indent2">return x</span><br>
+          Ex. def is_friend(name):<br>
+          <span class="indent">if name[0]=='D':</span><br>
+          <span class="indent2">     return True</span><br>
+          <span class="indent">else:</span><br>
+          <span class="indent2">return False</span><br>
+          simpler version: return name[0]=='D'...as the procedure code
+          If you wanted to find names that started with a 'D' or 'N' you could use: return name[0]=='D' or name[0]=='N'
+        </div>
+      <h2>Loops</h2>
+        <div class="description">
+          <em>While Loop:</em><br>
+               Loops allow things to be done over and over again. A while loop will continue to run as long as the test expression is true, once it's false we go to the next expression.<br>
+            <em>For Loop:</em><br>
+               For loops are traditionally used when you have a piece of code which you want to repeat n number of times. 
+        </div>
+        <h2>Or Operator</h2>
+        <div class="description">
+          &lt;Expression> or &lt;Expression> In cases where the first expression evaluates to True, the value is True and the second expression is not evaluated. If the first expression evaluates to False, the value is the value of the second expression.
+        </div> 
+            <h2>Mutability</h2>
+            <div class="description">
+              An object which can be modified after it is created.<br>
+              When introducing a new variable the new one will refer to the same list as the other variable. So if we change 'p' to 'q' they will both refer to the same thing. Whereas if we change the variable of the string, it becomes the new variable, and the old value becomes non-accessable.
+        </div>
+            <h2>.append, '+', and len(list)</h2>
+        <div class="description">
+          <ul>
+          <li><em>.append</em>: allows you to add an element to the end of a list.<br>
+          <li>'+': will combine the two lists into one list<br>
+          <li><em>len(list)</em>:will give you a number of elements in a  list. Note that, when a list has lists nested inside, whatever list is not first, regardless of length, will be counted as one.<br>
+            Ex. p=[1,2[3,4]] --- len(p) gives '3' because list with 3 and 4 in it are counted as one
+          </ul>
+        </div>       
+     </div>    
+  </body>
+</html>
